@@ -1,0 +1,210 @@
+@font-face {
+    font-family:Montserrat ;
+    src: url("Montserrat.ttf") ;
+}
+@font-face {
+    font-family:Roboto-Regular ;
+    src: url("Roboto.ttf");
+}
+@font-face {
+    font-family:RobotoMono ;
+    src: url("RobotoMono.ttf");
+}
+@font-face {
+    font-family:SFMonoRegular ;
+    src: url("SFMono.otf");
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+
+}
+body {
+    margin: 0 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #ffffff;
+   background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Hubble_ultra_deep_field.jpg/1200px-Hubble_ultra_deep_field.jpg);
+backdrop-filter: blur(5px);
+}
+header {
+    font-family: Roboto-Regular;
+    font-size: 0.8em;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto ;
+    border-radius: 50px;
+    height: fit-content;
+padding:5px 5px;
+color: black;
+text-align: center;
+margin-bottom: 0px ;
+padding-bottom: 0px;
+}
+h1 {
+    font-size: 1.5em;
+    text-align: left;
+    padding: 6px 10;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto ;
+    border-radius: 5px;
+    height: fit-content;
+padding:5px 5px;
+text-align: center;
+color: rgb(255, 255, 255);
+text-shadow: rgba(117,129,255,1) 0px 0px 20px; 
+font-family: Roboto-Regular;
+}
+h2 {
+ font-size: 1em;
+ text-align: left;
+ padding: 6 10;
+ width: fit-content;
+ margin-right: auto;
+ margin-left: auto ;
+ border-radius: 5px;
+ height: fit-content;
+padding:5px 5px;
+text-align: center;
+color: rgb(255, 255, 255);
+text-shadow: rgba(117,129,255,1) 0px 0px 20px; 
+font-family: Roboto-Regular;
+font-size: 20px;
+}
+h3{
+text-shadow: rgba(117,129,255,1) 0px 0px 20px;   
+color: white;
+font-family: Roboto-Regular;
+font-size: 20px;
+}
+.logo {
+height: 50px;
+width: 50px;
+width: 60px
+margin-right: auto;
+margin-left: auto ;
+border-radius: 5px;
+height: fit-content;
+padding:5px 5px;
+
+
+}
+.container {
+    columns: 3;
+    height: 1640px;
+    width: fit-content;
+    margin: 40px;
+
+}
+.cont1 {
+       
+    display: inline-block;
+    margin-right: 2%;
+    margin-bottom: 5%;
+    font-family: Roboto-Regular;
+    font-size: 1em;
+    border-top-left-radius:  24px;
+    border-top-right-radius:  24px;
+    border-bottom-left-radius:  24px;
+    border-bottom-right-radius: 24px;
+    width: 30vw;
+    height: 580px;
+    font-weight: normal;
+    text-align: center;
+        background-image: url('https://media0.giphy.com/media/tVM0hQmU52iKcLI1Kk/giphy.gif?cid=6c09b9524525er0v8nq7p1x73ap3b7j4b8k6nb3gxa0loqjm&ep=v1_gifs_search&rid=giphy.gif&ct=g');
+        background-position: center;
+        background-size: cover;
+        overflow: hidden;
+    
+}
+.cont1:hover{
+    box-shadow: 5px 5px 5px 5px rgb(255, 255, 255);
+}
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-family: Roboto-Regular;
+    
+}
+
+img {
+    height: 60%;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+p{
+    text-align: center;
+    font-size: 16px;
+    margin: 0 0;
+}
+.footerclass {
+    text-align: center;
+    color: white;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto ;
+    border-radius: 5px;
+    height: fit-content;
+padding:5px 5px;
+filter:drop-shadow(3px 3px 10px #8e56f5); 
+}
+
+.link{
+    color: white;
+    font-size: 50px;
+}
+
+.link:hover{
+    cursor: pointer;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    font-size: 70px;
+}
+.filler{
+    height: 1000px;
+    max-width: 100%;
+}
+.gittext{
+width: fit-content;
+columns: 3;
+column-span: all;
+font-size: 20px;
+margin: 40px 40px ;
+font-family: Roboto-Regular;
+font-weight: 700;
+}
+button{
+ margin-left: 50px;   
+ width: 100px;
+ height: 30px;
+ width: fit-content;
+ border-radius: 5px;
+ height: fit-content;
+padding:5px 5px;
+filter:drop-shadow(3px 3px 10px #8e56f5); 
+background: none;
+border: none;
+color: white;
+font-family: Roboto-Regular;
+font-size: 30px;
+}
+
+button:hover{
+    cursor: pointer;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    font-size: 35px;
+}
