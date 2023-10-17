@@ -122,7 +122,14 @@ padding:5px 5px;
     
 }
 .cont1:hover{
-    box-shadow: 5px 5px 5px 5px rgb(255, 255, 255);
+    box-shadow:  0 0 2px #fff,
+    0 0 5px #4836ee,
+    0 0 10px #6b47ee,
+    0 0 20px rgb(88, 91, 226),
+    0 0 30px rgb(119, 116, 240),
+    0 0 40px rgb(102, 157, 240),
+    0 0 50px #99c1fc,
+    0 0 60px #ffffff;;
 }
 a {
     text-decoration: none;
@@ -171,18 +178,10 @@ filter:drop-shadow(3px 3px 10px #8e56f5);
     font-size: 70px;
 }
 .filler{
-    height: 1000px;
+    height: 800px;
     max-width: 100%;
 }
-.gittext{
-width: fit-content;
-columns: 3;
-column-span: all;
-font-size: 20px;
-margin: 40px 40px ;
-font-family: Roboto-Regular;
-font-weight: 700;
-}
+
 button{
  margin-left: 50px;   
  width: 100px;
@@ -207,4 +206,22 @@ button:hover{
     -o-transition: all 0.2s ease;
     -ms-transition: all 0.2s ease;
     font-size: 35px;
+}
+
+dt{
+font-weight: bold;
+font-family:Roboto-Regular;
+text-shadow: rgba(117,129,255,1) 0px 0px 20px;  
+font-size: 20px;
+
+}
+
+dd{
+font-family:Roboto-Regular;
+text-shadow: rgba(117,129,255,1) 0px 0px 20px; 
+}
+.gittext{
+    max-width: fit-content;
+    margin: 20px 20px;
+
 }
